@@ -19,7 +19,7 @@ export default function Home() {
           
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted max-w-2xl mx-auto font-light">
-            A storytelling game designed to help you become closer to your friends, loved ones, or your coworkers.
+            A storytelling card game about truth, lies, and human connection. The brand blends design, emotion, and play to help people reconnect through conversation.
           </p>
 
           {/* CTA section */}
