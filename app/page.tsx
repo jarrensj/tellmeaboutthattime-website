@@ -12,7 +12,7 @@ export default function Home() {
       
       <div className="max-w-4xl w-full text-center space-y-8 animate-fade-in relative z-10">
         {/* Main heading */}
-        <h1 className="text-6xl md:text-8xl font-bold tracking-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight">
           tellmeaboutthattime
         </h1>
         
