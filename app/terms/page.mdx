@@ -1,0 +1,97 @@
+import Link from 'next/link'
+
+<div className="min-h-screen flex flex-col relative overflow-hidden">
+  <div className="grain-overlay"></div>
+  
+  <main className="flex-1 px-6 py-12 relative z-10">
+    <article className="max-w-3xl mx-auto prose">
+      <div className="mb-8">
+        <Link href="/" className="text-sm text-muted hover:text-foreground transition-colors">
+          ← Back to Home
+        </Link>
+      </div>
+
+# Terms of Service
+
+*Last Updated: November 8, 2025*
+
+## 1. Acceptance of Terms
+
+By accessing and using tellmeaboutthattime ("the App"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these Terms of Service, please do not use the App.
+
+## 2. Description of Service
+
+tellmeaboutthattime is a storytelling game application designed to help users become closer to their friends, loved ones, or coworkers through shared storytelling experiences.
+
+## 3. User Accounts
+
+You may be required to create an account to use certain features of the App. You are responsible for:
+
+- Maintaining the confidentiality of your account credentials
+- All activities that occur under your account
+- Notifying us immediately of any unauthorized use of your account
+
+## 4. User Content
+
+You retain all rights to the stories and content you create through the App. By using the App, you grant us a limited license to store and display your content solely for the purpose of providing the service.
+
+## 5. Acceptable Use
+
+You agree not to use the App to:
+
+- Violate any laws or regulations
+- Harass, abuse, or harm other users
+- Post offensive, inappropriate, or harmful content
+- Attempt to gain unauthorized access to the App or related systems
+- Interfere with the proper functioning of the App
+
+## 6. Intellectual Property
+
+The App and its original content, features, and functionality are owned by tellmeaboutthattime and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
+
+## 7. Termination
+
+We reserve the right to terminate or suspend your account and access to the App immediately, without prior notice or liability, for any reason, including breach of these Terms.
+
+## 8. Limitation of Liability
+
+In no event shall tellmeaboutthattime, its directors, employees, partners, agents, suppliers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the App.
+
+## 9. Disclaimer
+
+The App is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+## 10. Changes to Terms
+
+We reserve the right to modify or replace these Terms at any time. We will provide notice of any changes by posting the new Terms on this page and updating the "Last Updated" date.
+
+## 11. Governing Law
+
+These Terms shall be governed and construed in accordance with the laws of the United States, without regard to its conflict of law provisions.
+
+## 12. Contact Us
+
+If you have any questions about these Terms, please contact us at: [contact@tellmeaboutthattime.com](mailto:contact@tellmeaboutthattime.com)
+
+    </article>
+  </main>
+  
+  <footer className="relative z-10 py-6 px-6 text-center">
+    <p className="text-sm text-muted">
+      <Link href="/terms" className="hover:text-foreground transition-colors">
+        Terms of Service
+      </Link>
+      {" • "}
+      <Link href="/privacy" className="hover:text-foreground transition-colors">
+        Privacy Policy
+      </Link>
+      {" • "}
+      <a href="mailto:contact@tellmeaboutthattime.com" className="hover:text-foreground transition-colors">
+        Contact
+      </a>
+    </p>
+  </footer>
+</div>
+
+export default ({ children }) => children
+
